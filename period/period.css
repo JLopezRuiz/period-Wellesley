@@ -1,0 +1,51 @@
+  /* CSS file for period.html 
+	WRITTEN BY: Jackeline Lopez Ruiz 
+	DATE: May 4th, 2019
+	PURPOSE: Program for Period@Wellesley
+  */
+body {
+  color: #eeffaa;
+  background-color: #082248;
+  font-family: Optima, Palatino, serif;
+}
+
+h1 {
+  font-family: Futura, Helvetica Neue, sans;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: Futura, Helvetica Neue, sans;
+}
+
+
+button {
+  max-width: 2em;
+  max-height: 2em;
+}
+
+
+a:link, a:visited {
+  text-decoration: underline;
+  color: #99aa66;
+}
+
+#container {
+  width: 50vw;
+  min-width: 20em;
+  max-width: 50em;
+  margin: auto;
+  border: 2pt solid #eeffaa;
+  border-radius: 8pt;
+  padding: 10pt;
+}
+
+#image{
+    text-align: center;
+    padding: 15pt;
+}
+
+#space{
+padding: 15pt;
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<!--
+FILE NAME: period.html
+WRITTEN BY: Jackeline Lopez Ruiz 
+DATE: May 4th, 2019
+PURPOSE: Program for Period@Wellesley
+-->
+<html>
+<head>
+	<title>Period@Wellesley</title>
+	<script src="period.js"></script>
+  <link rel="stylesheet" href="period.css" />
+</head>
+
+<body>
+  <h1>The Period Waste Calculator</h1>
+  <div id = "image">
+	<a href="https://www.thecollegefix.com/wp-content/uploads/2016/09/tampons-pads-menstrual-hygiene.Sudowoodo.shutterstock.jpg">
+  <img src="images/image0.jpg" alt="Menstrual products clipart">
+	</a>
+</div>
+  <div id="container">
+	<p id = "input">
+ 	 	How many pads do you use a day while on your period?
+ 	 	<br>
+ 	 	<input id="firstInput" type="text">
+		<br>
+		<br>
+ 	 	How many tampons do you use a day while on your period? 
+ 	 	<br>
+ 	 	<input id="secondInput" type="text">
+		<br>
+		<br>
+ 	 	How many pantiliners do you use a day while on your period?
+ 	 	<br>
+ 	 	<input id="thirdInput" type="text">
+ 	 	<br>
+ 	 	<br>
+ 	 	How many days does your period last?
+ 	 	<br>
+ 	 	<input id="fourthInput" type="text" >
+ 	 	<br>
+ 	 	<br>
+ 	 	How many times a year do you get your period? 
+ 	 	<br>
+ 	 	<input id="fifthInput" type="text" value = "12">
+  	</p>
+
+
+  <!-- You will have to define a function named compareValues -->
+  <input type="button" value="Enter" onClick="compareValues()">
+
+  <p>
+  The cost of menstrual products over a lifetime:
+  </p>
+
+  <div
+    id="result"
+    style="padding: 10pt; border: 1px solid yellow; border-radius: 8pt;"
+  >
+    <!-- put your task 2 result into this div -->
+  </div>
+    </div>
+<div id = "space">
+</div>
+</body>
+</html>
